@@ -4,6 +4,6 @@ function takeANumber(katzDeliLine, name) {
 }
 
 function nowServing(katzDeliLine) {
-  katzDeliLine.pop()
-  return
+  if (katzDeliLine > 0)
+  return 
 }
